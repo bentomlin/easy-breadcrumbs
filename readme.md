@@ -1,3 +1,14 @@
+# Easy Breadcrumbs
+
+A simple solution to generate breadcrumbs. Add one line to your main controllers and then you can flesh out your breadcrumbs in the app\Breadcrumbs classes.
+
+Files to check out:
+app\Http\Controllers\Controller.php
+app\Breadcrumbs\*
+app\resources\views\partials\breadcrumbs.blade.php
+
+
+-------------------------------------------------------------------------------------------------
 # Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
