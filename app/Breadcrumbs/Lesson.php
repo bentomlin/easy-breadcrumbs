@@ -23,6 +23,6 @@ class Lesson extends BreadcrumbComposer
 
     public function edit()
     {
-        return $this->show($model) + ['Edit' => $this->model->id . '/edit'];
+        return $this->show() + ['Edit' => $this->model->id . '/edit'];
     }
 }
