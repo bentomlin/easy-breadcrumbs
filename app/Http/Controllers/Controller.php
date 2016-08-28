@@ -15,7 +15,7 @@ class Controller extends BaseController
 
     public function composeBreadcrumbs($model_type)
     {
-        View::composer('*', function( $view ) use ($model_type){
+        View::composer('*', function($view) use ($model_type){
             $path = "App\Breadcrumbs\\".class_basename($model_type);
             \App::make($path)->compose($view, $model_type);
         });
